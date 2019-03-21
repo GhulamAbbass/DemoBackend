@@ -17,6 +17,7 @@ namespace TrackingWorldDemo.Controllers
             db = context;
             if (db.vehicles.Count() == 0)
             {
+                
                 Vehicle vehicle = new Vehicle();
                 vehicle.RegNo = "Test Reg";
                 vehicle.Active = true;
