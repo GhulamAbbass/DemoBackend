@@ -57,3 +57,17 @@ C:\Users\Ansar\Desktop\DemoBackend\obj\Debug\netcoreapp2.2\TrackingWorldDemo.Ass
 C:\Users\Ansar\Desktop\DemoBackend\obj\Debug\netcoreapp2.2\TrackingWorldDemo.RazorTargetAssemblyInfo.cache
 C:\Users\Ansar\Desktop\DemoBackend\obj\Debug\netcoreapp2.2\TrackingWorldDemo.dll
 C:\Users\Ansar\Desktop\DemoBackend\obj\Debug\netcoreapp2.2\TrackingWorldDemo.pdb
+C:\Users\it\Desktop\DemoBackend\obj\Debug\netcoreapp2.2\TrackingWorldDemo.csproj.CoreCompileInputs.cache
+C:\Users\it\Desktop\DemoBackend\obj\Debug\netcoreapp2.2\TrackingWorldDemo.RazorAssemblyInfo.cache
+C:\Users\it\Desktop\DemoBackend\obj\Debug\netcoreapp2.2\TrackingWorldDemo.RazorAssemblyInfo.cs
+C:\Users\it\Desktop\DemoBackend\obj\Debug\netcoreapp2.2\TrackingWorldDemo.AssemblyInfoInputs.cache
+C:\Users\it\Desktop\DemoBackend\obj\Debug\netcoreapp2.2\TrackingWorldDemo.AssemblyInfo.cs
+C:\Users\it\Desktop\DemoBackend\bin\Debug\netcoreapp2.2\TrackingWorldDemo.deps.json
+C:\Users\it\Desktop\DemoBackend\bin\Debug\netcoreapp2.2\TrackingWorldDemo.runtimeconfig.json
+C:\Users\it\Desktop\DemoBackend\bin\Debug\netcoreapp2.2\TrackingWorldDemo.runtimeconfig.dev.json
+C:\Users\it\Desktop\DemoBackend\bin\Debug\netcoreapp2.2\TrackingWorldDemo.dll
+C:\Users\it\Desktop\DemoBackend\bin\Debug\netcoreapp2.2\TrackingWorldDemo.pdb
+C:\Users\it\Desktop\DemoBackend\obj\Debug\netcoreapp2.2\TrackingWorldDemo.RazorTargetAssemblyInfo.cache
+C:\Users\it\Desktop\DemoBackend\obj\Debug\netcoreapp2.2\TrackingWorldDemo.dll
+C:\Users\it\Desktop\DemoBackend\obj\Debug\netcoreapp2.2\TrackingWorldDemo.pdb
+C:\Users\it\Desktop\DemoBackend\obj\Debug\netcoreapp2.2\TrackingWorldDemo.csprojAssemblyReference.cache

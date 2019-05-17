@@ -11,8 +11,8 @@ namespace TrackingWorldDemo.Controllers
     [ApiController]
     public class VehicleController : ControllerBase
     {
-        private readonly FleetContext db;
-        public VehicleController(FleetContext context)
+        private readonly Context db;
+        public VehicleController(Context context)
         {
             db = context;
             if (db.vehicles.Count() == 0)
@@ -62,7 +62,7 @@ namespace TrackingWorldDemo.Controllers
                 db.SaveChanges();
                 return StatusCode(201);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return BadRequest();
             }

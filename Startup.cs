@@ -27,7 +27,7 @@ namespace TrackingWorldDemo
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<FleetContext>(o => o.UseInMemoryDatabase("Fleet"));
+            services.AddDbContext<Context>(o => o.UseInMemoryDatabase("Database"));
             services.AddCors(options =>
             {
                 options.AddPolicy(MyAllowSpecificOrigins,
