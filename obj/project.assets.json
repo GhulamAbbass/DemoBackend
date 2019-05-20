@@ -12953,29 +12953,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Student\\.nuget\\packages\\": {},
+    "C:\\Users\\Ansar\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Student\\Desktop\\DemoBackend\\TrackingWorldDemo.csproj",
+      "projectUniqueName": "c:\\Users\\Ansar\\Desktop\\DemoBackend\\TrackingWorldDemo.csproj",
       "projectName": "TrackingWorldDemo",
-      "projectPath": "C:\\Users\\Student\\Desktop\\DemoBackend\\TrackingWorldDemo.csproj",
-      "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Student\\Desktop\\DemoBackend\\obj\\",
+      "projectPath": "c:\\Users\\Ansar\\Desktop\\DemoBackend\\TrackingWorldDemo.csproj",
+      "packagesPath": "C:\\Users\\Ansar\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Ansar\\Desktop\\DemoBackend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Ansar\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.2": {
