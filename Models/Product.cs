@@ -22,5 +22,7 @@ namespace TrackingWorldDemo.Models
         public string Description { get; set; }
         [Required]
         public string Features { get; set; }
-     }
+        public string PicAddress { get; set; } = "https://images.unsplash.com/photo-1556217256-f4e659e15103?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80";
+
+    }
 }
