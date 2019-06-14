@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Student\\Desktop\\DemoBackend\\TrackingWorldDemo.csproj",
+  "FilePath": "c:\\Users\\it\\Desktop\\DemoBackend\\TrackingWorldDemo.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -15,7 +15,7 @@
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" /> implementation targeting &lt;a&gt; elements.\n            </summary>\n        ",
         "TagOutputHint": null,
         "TagMatchingRules": [
           {
@@ -28,7 +28,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -43,7 +44,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -58,7 +60,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -73,7 +76,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -88,7 +92,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -103,7 +108,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -118,7 +124,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -133,7 +140,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -148,7 +156,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -163,7 +172,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -178,7 +188,8 @@
                 "NameComparison": 1,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -192,11 +203,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The name of the action method.\n            </summary>\n            <remarks>\n            Must be <c>null</c> if <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Route\" /> or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Page\" /> is non-<c>null</c>.\n            </remarks>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Action"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -205,11 +217,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The name of the controller.\n            </summary>\n            <remarks>\n            Must be <c>null</c> if <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Route\" /> or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Page\" /> is non-<c>null</c>.\n            </remarks>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Controller"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -218,11 +231,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The name of the area.\n            </summary>\n            <remarks>\n            Must be <c>null</c> if <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Route\" /> is non-<c>null</c>.\n            </remarks>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Area"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -231,11 +245,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The name of the page.\n            </summary>\n            <remarks>\n            Must be <c>null</c> if <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Route\" /> or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Action\" />, <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Controller\" />\n            is non-<c>null</c>.\n            </remarks>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Page"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -244,11 +259,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The name of the page handler.\n            </summary>\n            <remarks>\n            Must be <c>null</c> if <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Route\" /> or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Action\" />, or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Controller\" />\n            is non-<c>null</c>.\n            </remarks>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "PageHandler"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -257,11 +273,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The protocol for the URL, such as \"http\" or \"https\".\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Protocol"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -270,11 +287,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The host name.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Host"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -283,11 +301,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The URL fragment name.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Fragment"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -296,11 +315,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Name of the route.\n            </summary>\n            <remarks>\n            Must be <c>null</c> if one of <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Action\" />, <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Controller\" />, <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Area\" /> \n            or <see cref=\"P:Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Page\" /> is non-<c>null</c>.\n            </remarks>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Route"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -309,11 +329,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": "asp-route-",
             "IndexerTypeName": "System.String",
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Additional parameters for the route.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "RouteValues"
-            }
+            },
+            "BoundAttributeParameters": []
           }
         ],
         "AllowedChildTags": [],
@@ -346,11 +367,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets the <see cref=\"T:Microsoft.Extensions.Caching.Memory.CacheItemPriority\" /> policy for the cache entry.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Priority"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -359,11 +381,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a <see cref=\"T:System.String\" /> to vary the cached result by.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "VaryBy"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -372,11 +395,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a comma-delimited set of HTTP request headers to vary the cached result by.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "VaryByHeader"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -385,11 +409,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a comma-delimited set of query parameters to vary the cached result by.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "VaryByQuery"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -398,11 +423,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a comma-delimited set of route data parameters to vary the cached result by.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "VaryByRoute"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -411,11 +437,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a comma-delimited set of cookie names to vary the cached result by.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "VaryByCookie"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -424,11 +451,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a value that determines if the cached result is to be varied by the Identity for the logged in\n            <see cref=\"P:Microsoft.AspNetCore.Http.HttpContext.User\" />.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "VaryByUser"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -437,11 +465,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a value that determines if the cached result is to be varied by request culture.\n            <para>\n            Setting this to <c>true</c> would result in the result to be varied by <see cref=\"P:System.Globalization.CultureInfo.CurrentCulture\" />\n            and <see cref=\"P:System.Globalization.CultureInfo.CurrentUICulture\" />.\n            </para>\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "VaryByCulture"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -450,11 +479,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets the exact <see cref=\"T:System.DateTimeOffset\" /> the cache entry should be evicted.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ExpiresOn"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -463,11 +493,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets the duration, from the time the cache entry was added, when it should be evicted.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ExpiresAfter"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -476,11 +507,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets the duration from last access that the cache entry should be evicted.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ExpiresSliding"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -489,11 +521,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets the value which determines if the tag helper is enabled or not.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Enabled"
-            }
+            },
+            "BoundAttributeParameters": []
           }
         ],
         "AllowedChildTags": [],
@@ -520,7 +553,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -538,7 +572,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Name"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -547,11 +582,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a <see cref=\"T:System.String\" /> to vary the cached result by.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "VaryBy"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -560,11 +596,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a comma-delimited set of HTTP request headers to vary the cached result by.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "VaryByHeader"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -573,11 +610,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a comma-delimited set of query parameters to vary the cached result by.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "VaryByQuery"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -586,11 +624,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a comma-delimited set of route data parameters to vary the cached result by.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "VaryByRoute"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -599,11 +638,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a comma-delimited set of cookie names to vary the cached result by.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "VaryByCookie"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -612,11 +652,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a value that determines if the cached result is to be varied by the Identity for the logged in\n            <see cref=\"P:Microsoft.AspNetCore.Http.HttpContext.User\" />.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "VaryByUser"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -625,11 +666,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets a value that determines if the cached result is to be varied by request culture.\n            <para>\n            Setting this to <c>true</c> would result in the result to be varied by <see cref=\"P:System.Globalization.CultureInfo.CurrentCulture\" />\n            and <see cref=\"P:System.Globalization.CultureInfo.CurrentUICulture\" />.\n            </para>\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "VaryByCulture"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -638,11 +680,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets the exact <see cref=\"T:System.DateTimeOffset\" /> the cache entry should be evicted.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ExpiresOn"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -651,11 +694,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets the duration, from the time the cache entry was added, when it should be evicted.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ExpiresAfter"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -664,11 +708,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets the duration from last access that the cache entry should be evicted.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ExpiresSliding"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -677,11 +722,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Gets or sets the value which determines if the tag helper is enabled or not.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Enabled"
-            }
+            },
+            "BoundAttributeParameters": []
           }
         ],
         "AllowedChildTags": [],
@@ -718,7 +764,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Names"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -731,7 +778,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Include"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -744,7 +792,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Exclude"
-            }
+            },
+            "BoundAttributeParameters": []
           }
         ],
         "AllowedChildTags": [],
@@ -771,7 +820,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -786,7 +836,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -801,7 +852,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -816,7 +868,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -831,7 +884,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -846,7 +900,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -861,7 +916,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -876,7 +932,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -891,7 +948,8 @@
                 "NameComparison": 1,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -906,14 +964,16 @@
                 "NameComparison": 0,
                 "Value": "image",
                 "ValueComparison": 1,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               },
               {
                 "Name": "asp-action",
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -928,14 +988,16 @@
                 "NameComparison": 0,
                 "Value": "image",
                 "ValueComparison": 1,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               },
               {
                 "Name": "asp-controller",
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -950,14 +1012,16 @@
                 "NameComparison": 0,
                 "Value": "image",
                 "ValueComparison": 1,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               },
               {
                 "Name": "asp-area",
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -972,14 +1036,16 @@
                 "NameComparison": 0,
                 "Value": "image",
                 "ValueComparison": 1,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               },
               {
                 "Name": "asp-page",
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -994,14 +1060,16 @@
                 "NameComparison": 0,
                 "Value": "image",
                 "ValueComparison": 1,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               },
               {
                 "Name": "asp-page-handler",
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -1016,14 +1084,16 @@
                 "NameComparison": 0,
                 "Value": "image",
                 "ValueComparison": 1,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               },
               {
                 "Name": "asp-fragment",
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -1038,14 +1108,16 @@
                 "NameComparison": 0,
                 "Value": "image",
                 "ValueComparison": 1,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               },
               {
                 "Name": "asp-route",
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -1060,14 +1132,16 @@
                 "NameComparison": 0,
                 "Value": "image",
                 "ValueComparison": 1,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               },
               {
                 "Name": "asp-all-route-data",
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -1082,14 +1156,16 @@
                 "NameComparison": 0,
                 "Value": "image",
                 "ValueComparison": 1,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               },
               {
                 "Name": "asp-route-",
                 "NameComparison": 1,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -1104,14 +1180,16 @@
                 "NameComparison": 0,
                 "Value": "submit",
                 "ValueComparison": 1,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               },
               {
                 "Name": "asp-action",
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -1126,14 +1204,16 @@
                 "NameComparison": 0,
                 "Value": "submit",
                 "ValueComparison": 1,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               },
               {
                 "Name": "asp-controller",
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -1148,14 +1228,16 @@
                 "NameComparison": 0,
                 "Value": "submit",
                 "ValueComparison": 1,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               },
               {
                 "Name": "asp-area",
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -1170,14 +1252,16 @@
                 "NameComparison": 0,
                 "Value": "submit",
                 "ValueComparison": 1,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               },
               {
                 "Name": "asp-page",
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -1192,14 +1276,16 @@
                 "NameComparison": 0,
                 "Value": "submit",
                 "ValueComparison": 1,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               },
               {
                 "Name": "asp-page-handler",
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -1214,14 +1300,16 @@
                 "NameComparison": 0,
                 "Value": "submit",
                 "ValueComparison": 1,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               },
               {
                 "Name": "asp-fragment",
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -1236,14 +1324,16 @@
                 "NameComparison": 0,
                 "Value": "submit",
                 "ValueComparison": 1,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               },
               {
                 "Name": "asp-route",
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -1258,14 +1348,16 @@
                 "NameComparison": 0,
                 "Value": "submit",
                 "ValueComparison": 1,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               },
               {
                 "Name": "asp-all-route-data",
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -1280,14 +1372,16 @@
                 "NameComparison": 0,
                 "Value": "submit",
                 "ValueComparison": 1,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               },
               {
                 "Name": "asp-route-",
                 "NameComparison": 1,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -1305,7 +1399,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Action"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -1318,7 +1413,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Controller"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -1331,7 +1427,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Area"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -1344,7 +1441,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Page"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -1357,7 +1455,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "PageHandler"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -1370,7 +1469,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Fragment"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -1383,7 +1483,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Route"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -1396,7 +1497,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "RouteValues"
-            }
+            },
+            "BoundAttributeParameters": []
           }
         ],
         "AllowedChildTags": [],
@@ -1433,7 +1535,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Action"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -1446,7 +1549,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Controller"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -1459,7 +1563,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Area"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -1472,7 +1577,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Page"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -1485,7 +1591,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "PageHandler"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -1498,7 +1605,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Antiforgery"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -1511,7 +1619,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Fragment"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -1524,7 +1633,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Route"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -1537,7 +1647,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "RouteValues"
-            }
+            },
+            "BoundAttributeParameters": []
           }
         ],
         "AllowedChildTags": [],
@@ -1564,14 +1675,16 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               },
               {
                 "Name": "src",
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -1589,7 +1702,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Src"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -1602,7 +1716,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "AppendVersion"
-            }
+            },
+            "BoundAttributeParameters": []
           }
         ],
         "AllowedChildTags": [],
@@ -1629,7 +1744,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -1647,7 +1763,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "For"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -1660,7 +1777,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Format"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -1673,7 +1791,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "InputTypeName"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -1686,7 +1805,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Name"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -1699,7 +1819,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Value"
-            }
+            },
+            "BoundAttributeParameters": []
           }
         ],
         "AllowedChildTags": [],
@@ -1726,7 +1847,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -1744,7 +1866,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "For"
-            }
+            },
+            "BoundAttributeParameters": []
           }
         ],
         "AllowedChildTags": [],
@@ -1771,7 +1894,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -1786,7 +1910,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -1801,7 +1926,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -1816,7 +1942,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -1831,7 +1958,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -1846,7 +1974,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -1861,7 +1990,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -1876,7 +2006,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -1891,7 +2022,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -1909,7 +2041,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Href"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -1922,7 +2055,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "HrefInclude"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -1935,7 +2069,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "HrefExclude"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -1948,7 +2083,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "FallbackHref"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -1961,7 +2097,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "SuppressFallbackIntegrity"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -1974,7 +2111,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "AppendVersion"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -1987,7 +2125,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "FallbackHrefInclude"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -2000,7 +2139,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "FallbackHrefExclude"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -2013,7 +2153,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "FallbackTestClass"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -2026,7 +2167,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "FallbackTestProperty"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -2039,7 +2181,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "FallbackTestValue"
-            }
+            },
+            "BoundAttributeParameters": []
           }
         ],
         "AllowedChildTags": [],
@@ -2076,7 +2219,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Value"
-            }
+            },
+            "BoundAttributeParameters": []
           }
         ],
         "AllowedChildTags": [],
@@ -2103,7 +2247,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -2121,7 +2266,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Name"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -2134,7 +2280,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "For"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -2147,7 +2294,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Model"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -2160,7 +2308,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Optional"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -2173,7 +2322,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "FallbackName"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -2186,7 +2336,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ViewData"
-            }
+            },
+            "BoundAttributeParameters": []
           }
         ],
         "AllowedChildTags": [],
@@ -2213,7 +2364,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -2228,7 +2380,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -2243,7 +2396,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -2258,7 +2412,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -2273,7 +2428,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -2288,7 +2444,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -2303,7 +2460,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -2321,7 +2479,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Src"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -2334,7 +2493,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "SrcInclude"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -2347,7 +2507,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "SrcExclude"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -2360,7 +2521,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "FallbackSrc"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -2373,7 +2535,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "SuppressFallbackIntegrity"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -2386,7 +2549,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "AppendVersion"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -2399,7 +2563,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "FallbackSrcInclude"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -2412,7 +2577,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "FallbackSrcExclude"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -2425,7 +2591,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "FallbackTestExpression"
-            }
+            },
+            "BoundAttributeParameters": []
           }
         ],
         "AllowedChildTags": [],
@@ -2452,7 +2619,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -2467,7 +2635,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -2485,7 +2654,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "For"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -2498,7 +2668,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Items"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -2511,7 +2682,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Name"
-            }
+            },
+            "BoundAttributeParameters": []
           }
         ],
         "AllowedChildTags": [],
@@ -2538,7 +2710,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -2556,7 +2729,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "For"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -2569,7 +2743,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "Name"
-            }
+            },
+            "BoundAttributeParameters": []
           }
         ],
         "AllowedChildTags": [],
@@ -2596,7 +2771,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -2614,7 +2790,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "For"
-            }
+            },
+            "BoundAttributeParameters": []
           }
         ],
         "AllowedChildTags": [],
@@ -2641,7 +2818,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -2659,7 +2837,8 @@
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ValidationSummary"
-            }
+            },
+            "BoundAttributeParameters": []
           }
         ],
         "AllowedChildTags": [],
@@ -2673,7 +2852,7 @@
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.SpaServices.Prerendering.PrerenderTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.SpaServices",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            A tag helper for prerendering JavaScript applications on the server.\n            </summary>\n        ",
         "TagOutputHint": null,
         "TagMatchingRules": [
           {
@@ -2686,7 +2865,8 @@
                 "NameComparison": 0,
                 "Value": null,
                 "ValueComparison": 0,
-                "Diagnostics": []
+                "Diagnostics": [],
+                "Metadata": {}
               }
             ],
             "Diagnostics": []
@@ -2700,11 +2880,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Specifies the path to the JavaScript module containing prerendering code.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ModuleName"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -2713,11 +2894,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            If set, specifies the name of the CommonJS export that is the prerendering function to execute.\n            If not set, the JavaScript module's default CommonJS export must itself be the prerendering function.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ExportName"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -2726,11 +2908,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            An optional JSON-serializable parameter to be supplied to the prerendering code.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "CustomDataParameter"
-            }
+            },
+            "BoundAttributeParameters": []
           },
           {
             "Kind": "ITagHelper",
@@ -2739,11 +2922,12 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            The maximum duration to wait for prerendering to complete.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "TimeoutMillisecondsParameter"
-            }
+            },
+            "BoundAttributeParameters": []
           }
         ],
         "AllowedChildTags": [],
@@ -2757,71 +2941,5 @@
     "CSharpLanguageVersion": 703
   },
   "RootNamespace": "TrackingWorldDemo",
-  "Documents": [
-    {
-      "FilePath": "Pages\\Product\\Details.cshtml",
-      "TargetPath": "Pages\\Product\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Pages\\Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Pages\\Product\\Index.cshtml",
-      "TargetPath": "Pages\\Product\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Pages\\Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Pages\\_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Pages\\Product\\Delete.cshtml",
-      "TargetPath": "Pages\\Product\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Pages\\Product\\Edit.cshtml",
-      "TargetPath": "Pages\\Product\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Pages\\_ViewStart.cshtml",
-      "TargetPath": "Pages\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Pages\\Product\\Create.cshtml",
-      "TargetPath": "Pages\\Product\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Pages\\Shared\\_CookieConsentPartial.cshtml",
-      "TargetPath": "Pages\\Shared\\_CookieConsentPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Pages\\Shared\\_Layout.cshtml",
-      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    }
-  ]
+  "Documents": []
 }
