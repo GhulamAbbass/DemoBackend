@@ -33,7 +33,7 @@ namespace TrackingWorldDemo
                 options.AddPolicy(MyAllowSpecificOrigins,
                 builder =>
                 {
-                    builder.WithOrigins("http://localhost:4200");
+                    builder.WithOrigins("http://localhost:4200","https://vehiclemanagement-802d7.web.app");
                     builder.AllowAnyMethod();
                     builder.AllowAnyHeader();
                 
